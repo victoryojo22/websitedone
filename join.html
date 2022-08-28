@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>join us page</title>
+    <link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+
+<body>
+
+
+
+    <div class="gg">
+
+
+
+        <nav>
+
+
+            <header class="mainheader">
+                <img id="logo" width="89" height="90" src="Image/logo.jpg">
+                <h1>Join Us fanpage </h1>
+                <ul>
+
+                    <li class="nav"><a href="index.html">Home</a></li>
+                    <li class="nav"><a href="about.html">About</a></li>
+                    <li class="nav"><a href="merchandise.html">merchandise</a> </li>
+                    <li class="nav"><a href="gallery.html">Gallery</a> </li>
+                     <li class="nav"><a href="video.html">video</a> </li>
+                    <li class="dropdown"><a href="join.html">Join Us </a>
+
+
+
+                    <li class="nav"><a href="contact.html">Contacts</a> </li>
+
+
+                </ul>
+
+
+            </header>
+
+
+
+
+
+
+
+        </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <form action="userdata.html" method="get" enctype="multipart/form-data">
+
+        <h2>Registration form</h2>
+
+
+        <fieldset>
+            <legend>Log in </legend>
+            <p class="instructions">Please enter information below</p>
+            <div class="divA">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+
+
+            <div class="divA">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required>
+            </div>
+
+
+
+            <div class="divA">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div class="divA">
+                <label for="Email">Email</label>
+                <input type="Email" name="Email" id="Email" required>
+            </div>
+
+            <div class="divA">
+                <label for="tel">Phone</label>
+                <input type="tel" name="tel" id="tel" required>
+            </div>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+        <fieldset>
+
+            <legend>About me</legend>
+            <p class="instructions"> where your from </p>
+
+            <div class="divB">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="0">
+            </div>
+
+            <div class="divB">
+                <label for="Dateofbirth">Date of birth</label>
+                <input type="date" name="Date of birth" id="Date of birthin=">
+            </div>
+
+
+
+
+
+            <div class="divB">
+                <label for="country">country</label>
+                <input type="country" name="country" id="country" value="Ireland">
+            </div>
+
+
+
+            <div class="divB">
+                <label for="Nationality">Nationality</label>
+                <input type="Nationality" name="Nationality" id="Nationality" placeholder="if dual please enter both">
+            </div>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+        <fieldset>
+            <legend>few things about been a fan</legend>
+
+            <p class="instructions">Why are you choosing to be a stevie wonder fan</p>
+
+            <div class="radios">
+
+                <div class="divc">
+                    <div class="left">
+                        <input type="radio" name="Subject">
+                        <label for="WedDev">love his music</label>
+
+
+                        <div class="divc">
+
+                            <input type="radio" name="Subject" checked>
+                            <label for="UniversalDesign">a role model</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="divc">
+                    <div class="right">
+                        <input type="radio" name="Subject">
+                        <label for="StorytellingandNarritive">want to be like him in the music industry</label>
+
+
+
+                        <div class="divc">
+
+                            <input type="radio" name="Subject">
+                            <label for="Design process">Making others happy when singing</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+
+
+
+
+
+
+
+
+
+
+        <fieldset>
+
+
+            <legend>You</legend>
+            <div class="divD">
+
+
+                <p class="instructions">If you were to pick a job in which you will want to work in.</p>
+
+                <label for="work">Choose a work</label>
+                <select name="work" id="work">
+
+                    <option value="Webdesigner">singer</option>
+                    <option value="Photographer">song produce</option>
+                    <option value="Designer">flim maker</option>
+
+
+
+                    <option value="VideoEditor">dancer</option>
+                    <option value="Storytelling">artists</option>
+
+
+                </select>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="divE">
+                <p class="instructions deserve">How did you hear about us </p>
+
+                <label for="favourite">Answer:</label>
+                <select name="favourite" id="favourite" multiple>
+                    <option value="1">Online</option>
+                    <option value="2">Friend</option>
+                    <option value="More">Other</option>
+                </select>
+
+
+
+
+
+
+                <p class="instructions deserve">If you were to add something new to our company , what and which will you add?</p>
+                <label for="New">Answer:</label>
+                <textarea label="New" id="New" cols="40" rows="3"></textarea>
+
+            </div>
+
+            <p class="instructions">Submit any work in which you had done before.</p>
+
+
+
+
+            <div>
+
+                <label for="myfiles">Select a file</label>
+
+                <input type="file" id="myfiles">
+
+
+
+
+
+            </div>
+
+
+
+
+        </fieldset>
+
+
+
+
+
+
+
+        <button type="submit">Submit text </button>
+        <button type="reset">Reset button</button>
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+</body></html>
